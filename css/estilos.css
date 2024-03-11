@@ -45,7 +45,7 @@ aside{
     height: 250px;
 }
 .productos{
-    background-image: url(./img/enviogratis.jpeg);
+    background-image: url(../img/envio\ gratis.jpeg);
     background-size: cover;
     background-position: center;
 }
