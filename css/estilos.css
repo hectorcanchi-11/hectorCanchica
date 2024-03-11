@@ -11,7 +11,7 @@ header{
 
 .banner{
     height: 450px;
-    background-image: url(/img/perfume-rosa.jpg);
+    background-image: url(../img/perfume-rosa.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.8;
@@ -24,7 +24,7 @@ header{
 
 .inicio{
     height: 450px;
-    background-image:url(./img/cosmetics.jpg) ;
+    background-image:url(../img/cosmetics.jpg) ;
     background-size: cover;
     background-position:top;
     color: goldenrod;
@@ -51,18 +51,18 @@ aside{
 }
 
 .productos1{
-    background-image: url(./img/50de\ descuento.jpeg);
+    background-image: url(../img/50de\ descuento.jpeg);
     background-size: cover;
     background-position: center;
 }
 .productos2{
-    background-image: url(./img/WhatsApp\ Image\ 2024-02-21\ at\ 3.08.52\ PM.jpeg);
+    background-image: url(../img/WhatsApp\ Image\ 2024-02-21\ at\ 3.08.52\ PM.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .productos3{
-    background-image: url(./img/promocionvs2.jpeg);
+    background-image: url(../img/promocionvs2.jpeg);
     background-size: cover;
     background-position: center;
 }
