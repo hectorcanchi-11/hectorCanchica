@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    border: 3px solid goldenrod;
+}
+
+.banner{
+    height: 450px;
+    background-image: url(/img/perfume-rosa.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    border: 3px solid black;
+    color: goldenrod;
+    text-transform: capitalize;
+    text-shadow: 1px 0 5px;
+    text-align: center;
+}
+
+.inicio{
+    height: 450px;
+    background-image:url(/img/cosmetics.jpg) ;
+    background-size: cover;
+    background-position:top;
+    color: goldenrod;
+    font-size: 20px;
+    border: 3px solid black;
+    text-shadow: 1px 0 5px;
+}
+article{
+    font-size: 16px;
+}
+.servicios{
+    border: 2px solid goldenrod;
+}
+aside{
+    border: 2px solid black;
+}
+.productos{
+    height: 250px;
+}
+.productos{
+    background-image: url(/img/envio\ gratis.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.productos1{
+    background-image: url(/img/50de\ descuento.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.productos2{
+    background-image: url(/img/WhatsApp\ Image\ 2024-02-21\ at\ 3.08.52\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.productos3{
+    background-image: url(/img/promocionvs2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+section a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    border: 2px solid goldenrod;
+    color: goldenrod;
+    text-align: center;
+    padding:5px;
+    font-size: 20px;
+
+}
+footer a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 30px;
+    margin: 10px;
+
+
+}
+footer p{
+    margin: 20px;
+    font-size: 28px;
+    text-transform: capitalize;
+    background-color: rgb(7, 7, 7);
+}
+
+footer a :hover{
+    color: antiquewhite;
+}
+.whatsapp{
+    height: 50px;
+    width: 50px;
+    color: darkgoldenrod;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0 0 5px 3px darkgoldenrod;
+
+}
+.whatsapp:hover{
+    color: whitesmoke;
+}
+
+/* @media only screen and (min-width:320px) and (max-wiht;768px){
+.promociones{
+    height: 500px;
+}
+} */
+
+/* productos */
+
+.galeria{
+    text-align: center;
+    background-color: rgba(233, 227, 142, 0.432);
+}
+.img-fluid{
+    border: 5px solid rgba(163, 160, 0, 0.562);
+    height: 300px;
+    width: 250px;
+}
+h3{
+    margin: 10px;
+    background-color: rgba(165, 42, 42, 0.356);
+    border: 2px solid goldenrod;
+    padding: 5px;
+}
+p{
+    background-color: rgba(184, 135, 11, 0.452);
+    
+}
+
