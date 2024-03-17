@@ -15,10 +15,10 @@ header{
     background-size: cover;
     background-position: center;
     opacity: 0.8;
-    border: 3px solid black;
+    border: 3px solid rgb(104, 97, 97);
     color: goldenrod;
     text-transform: capitalize;
-    text-shadow: 1px 0 5px;
+    text-shadow: 10px 5px 5px rgb(151, 132, 26);
     text-align: center;
 }
 
@@ -72,6 +72,9 @@ section a{
     font-size: 20px;
     padding: 20px;
 }
+section a:hover{
+    color:gold
+}
 
 footer{
     background-color: black;
@@ -118,11 +121,15 @@ footer a :hover{
     color: whitesmoke;
 }
 
-/* @media only screen and (min-width:320px) and (max-wiht;768px){
-.promociones{
-    height: 500px;
+@media only screen and (min-width:320px){
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: auto;
 }
-} */
+}
+
 
 /* productos */
 
