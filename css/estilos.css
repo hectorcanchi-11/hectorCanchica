@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -190,10 +191,12 @@ p{
 .banner2{
     display: flex;
     flex-wrap: wrap;
-    height: 350px;
+    height: 450px;
     background-color: rgba(0, 0, 0, 0.205);
     padding: 10px;
     border: 3px solid darkgoldenrod;
+    text-align: center;
+    justify-content: center;
 }
 .inicio2{
     background-image: url(../img/maquillajekit.jpg);
@@ -205,6 +208,5 @@ p{
     color: gold;
     text-align: center;
     font-size: 30px;
-    border: 3px solid darkgoldenrod
-    
+    border: 3px solid darkgoldenrod; 
 }
