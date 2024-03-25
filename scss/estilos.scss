@@ -1,0 +1,202 @@
+$color_1: goldenrod;
+$color_2: aliceblue;
+$color_3: gold;
+$color_4: antiquewhite;
+$color_5: darkgoldenrod;
+$color_6: whitesmoke;
+$background-color_1: black;
+$background-color_2: rgb(7, 7, 7);
+$background-color_3: rgb(204, 196, 86);
+$background-color_4: rgb(0, 0, 0);
+$background-color_5: none;
+$background-color_6: rgba(0, 0, 0, 0.205);
+
+/* productos */
+/* contacto */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	background-color: $background-color_1;
+	border: 3px solid goldenrod;
+}
+.banner {
+	height: 450px;
+	background-image: url(../img/perfume-rosa.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+	border: 3px solid rgb(104, 97, 97);
+	color: $color_1;
+	text-transform: capitalize;
+	text-shadow: 10px 5px 5px rgb(151, 132, 26);
+	text-align: center;
+}
+.inicio {
+	height: 450px;
+	background-image: url(../img/cosmetics.jpg);
+	background-size: cover;
+	background-position: top;
+	color: $color_1;
+	font-size: 20px;
+	border: 3px solid black;
+	text-shadow: 1px 0 5px;
+}
+article {
+	font-size: 16px;
+}
+.servicios {
+	border: 2px solid goldenrod;
+}
+aside {
+	border: 2px solid black;
+}
+.productos {
+	height: 250px;
+	background-image: url(../img/envio\ gratis.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.productos1 {
+	background-image: url(../img/50de\ descuento.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.productos2 {
+	background-image: url(../img/WhatsApp\ Image\ 2024-02-21\ at\ 3.08.52\ PM.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.productos3 {
+	background-image: url(../img/promocionvs2.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+section {
+	a {
+		text-decoration: none;
+		color: $color_2;
+		font-size: 20px;
+		padding: 20px;
+		&:hover {
+			color: $color_3;
+		}
+	}
+}
+footer {
+	background-color: $background-color_1;
+	border: 2px solid goldenrod;
+	color: $color_1;
+	text-align: center;
+	padding: 5px;
+	font-size: 20px;
+	a {
+		text-decoration: none;
+		color: $color_1;
+		font-size: 30px;
+		margin: 10px;
+		&:hover {
+			color: $color_4;
+		}
+	}
+	p {
+		margin: 20px;
+		font-size: 28px;
+		text-transform: capitalize;
+		background-color: $background-color_2;
+	}
+}
+.whatsapp {
+	height: 50px;
+	width: 50px;
+	color: $color_5;
+	background-color: $background-color_1;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	text-align: center;
+	font-size: 35px;
+	box-shadow: 0 0 5px 3px darkgoldenrod;
+	&:hover {
+		color: $color_6;
+	}
+}
+.galeria {
+	text-align: center;
+	background-color: $background-color_3;
+}
+.img-fluid {
+	border: 5px solid darkgoldenrod;
+	height: 300px;
+	width: 250px;
+}
+h3 {
+	margin: 10px;
+	background-color: $background-color_4;
+	border: 3px solid goldenrod;
+	padding: 5px;
+	color: $color_1;
+}
+p {
+	background-color: $background-color_4;
+	color: $color_1;
+	border: 2PX SOLID darkgoldenrod;
+}
+.banner1 {
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url(../img/kit.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.contacto {
+	color: $color_2;
+	background-color: $background-color_5;
+	text-decoration: none;
+	padding: 20px;
+	align-items: center;
+}
+.container {
+	height: 400px;
+	width: auto;
+}
+.kita {
+	background-image: url(../img/base.jpg);
+	display: flex;
+	flex-wrap: wrap;
+	background-size: cover;
+	background-position: center;
+}
+.banner2 {
+	display: flex;
+	flex-wrap: wrap;
+	height: 450px;
+	background-color: $background-color_6;
+	padding: 10px;
+	border: 3px solid darkgoldenrod;
+	text-align: center;
+	justify-content: center;
+}
+.inicio2 {
+	background-image: url(../img/maquillajekit.jpg);
+	display: flex;
+	flex-wrap: wrap;
+	height: 450px;
+	background-size: cover;
+	background-position: center;
+	color: $color_3;
+	text-align: center;
+	font-size: 30px;
+	border: 3px solid darkgoldenrod;
+}
+@media only screen and (min-width:320px) {
+	aside {
+		display: flex;
+		flex-wrap: wrap;
+		height: 250px;
+		width: auto;
+	}
+}
