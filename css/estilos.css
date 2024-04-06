@@ -1,5 +1,10 @@
 /* productos */
 /* contacto */
+/* carrusel */
+/* Promociones */
+/* nosotros */
+/* Formulario contacto */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,11 +16,29 @@ header {
   border: 3px solid goldenrod;
 }
 
-ul li a{
+ul li a {
   font-size: 24px;
 }
+ul img {
+  display: flex;
+  border-radius: 100%;
+  align-items: center;
+  transition: 1.5s;
+}
+ul a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  color: white;
+  line-height: 75px;
+}
+ul a:hover {
+  color: goldenrod;
+  transition: all 1.5s;
+}
 
-.navbar-brand{
+.navbar-brand {
   font-size: 28px;
 }
 
@@ -42,21 +65,47 @@ ul li a{
   border: 3px solid black;
   text-shadow: 1px 0 5px;
 }
-div p{
+
+div p {
   font-weight: bolder;
+  font-size: 22px;
+  color: black;
+  padding: 10px;
+  text-shadow: 1px 2px 5px darkgoldenrod;
+}
+div h2 {
+  margin-top: 50px;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: italic;
 }
 
 article {
   font-size: 18px;
 }
 
-h1 a{
+h1 {
+  color: darkgoldenrod;
+  background-color: black;
+  border: 2px solid darkgoldenrod;
+  text-align: center;
+  color: darkgoldenrod;
+  font-size: 35px;
+  align-items: center;
+}
+h1 a {
   color: darkgoldenrod;
   list-style: none;
   text-decoration: none;
 }
-.servicios{
-  border:2px solid darkgoldenrod;
+h1 a:hover {
+  color: aliceblue;
+  transition: all 0.9s;
+}
+
+.servicios {
+  border: 2px solid darkgoldenrod;
 }
 
 aside {
@@ -86,30 +135,24 @@ aside {
   background-size: cover;
   background-position: center;
 }
-/* carrusel */
 
-#carouselExampleFade{
-display: grid;
-grid-template-columns: 75%;
-height: 600px;
-justify-content: center;
-align-items: center;
-background-image: url(/img/ks.oscuro.jpeg);
-background-size: cover;
-background-position: center;
-}
-h1{
-  color: darkgoldenrod;
-  background-color: black;
-  border: 2px solid darkgoldenrod;
+#carouselExampleFade {
+  display: grid;
+  grid-template-columns: 75%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/ks.oscuro.jpeg);
+  background-size: cover;
+  background-position: center;
 }
 
-.carrusel{
+.carrusel {
   display: grid;
   grid-template-columns: 75% 25%;
 }
 
-.d-block{
+.d-block {
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -117,35 +160,15 @@ h1{
   border-radius: 10%;
 }
 
-.trabaja{
-  background-image:url(/img/cajamaquillaje.jpg);
+.trabaja {
+  background-image: url(/img/cajamaquillaje.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
   align-items: center;
 }
 
-div h2{
-  margin-top: 50px;
-  color: goldenrod;
-  font-weight: bold;
-  font-size: 30px;
-  font-style: italic;
-}
-
-div p{
-  font-size: 22px;
-  color: black;
-  padding: 10px;
-  text-shadow: 1px 2px 5px darkgoldenrod;
-}
-
-h1 a:hover {
-  color: aliceblue;
-  transition: all 0.9s;
-}
-
-footer{
+footer {
   background-color: black;
   border: 2px solid goldenrod;
   color: goldenrod;
@@ -162,7 +185,7 @@ footer a {
 footer a:hover {
   color: antiquewhite;
 }
-footer p{
+footer p {
   margin: 20px;
   font-size: 28px;
   text-transform: capitalize;
@@ -200,7 +223,6 @@ footer p{
   height: 300px;
   width: 250px;
   transition: all 0.9s;
-
 }
 
 h3 {
@@ -212,7 +234,7 @@ h3 {
   font-size: 24px;
 }
 
-h4{
+h4 {
   background-color: rgb(0, 0, 0);
   color: goldenrod;
   border: 2px SOLID darkgoldenrod;
@@ -240,246 +262,126 @@ h4{
   width: auto;
 }
 
-@media only screen and (min-width: 150px) {
-  aside {
-    display: flex;
-    flex-wrap: wrap;
-    height: 350px;
-    width: auto;
-  }
-}
-
-/* Promociones */
-
-@media (min-width: 200px) and (max-width:576px){
-
-
-.grid-container{
-  display: grid;
-  grid-template-columns:100%;
-  align-items: center;
-  text-align: center;
-}
-
-.carrusel{
-  display: grid;
-  grid-template-columns: 100%;
-}
-
-.trabaja{
-  height: 300px;
-}
-
-
-.item{
-  border: 2px solid darkgoldenrod;
-  height: 350px;
-  background-position:center;
-  background-size: cover;
-}
-}
-@media (min-width: 577px) and (max-width:768px){
-
-  .grid-container{
-    display: grid;
-    grid-template-columns:50% 50%;
-    align-items: center;
-    text-align: center;
-  }
-
-  .carrusel{
-    display: grid;
-    grid-template-columns: 100%;
-  }
-  .trabaja{
-    height: 300px;
-    text-align: center;
-  }
-
-  .item{
-    border: 2px solid darkgoldenrod;
-    height: 350px;
-    background-position:center;
-    background-size: cover;
-  }
-  .item3{
-    width: 200%;
-  }
-  .item6{
-    width: 200%;
-  }
-  .item9{
-    width: 200%;
-  }
-
-}
-
-@media (min-width: 769px){
-
-  .grid-item{
-    display: block;
-  }
-
-  .grid-container{
-    display: grid;
-    grid-template-columns:33.33% 33.33% 33.34%;
-    align-items: center;
-    text-align: center;
-  }
-
-  .item{
-    border: 2px solid darkgoldenrod;
-    height: 350px;
-    background-position:center;
-    background-size: cover;
-  }
-
-}
-
-.promocion{
+.promocion {
   font-size: 24px;
   text-align: center;
   background-color: black;
   height: 50px;
   padding: 10px;
-  margin:0;
-  color:darkgoldenrod;
+  margin: 0;
+  color: darkgoldenrod;
 }
 
-.item1{
-  background-image:url(/img/colonia.jpg) ;
+.item1 {
+  background-image: url(/img/colonia.jpg);
 }
-.item2{
+
+.item2 {
   background-image: url(/img/perfume.jpg);
 }
-.item3{
-  background-image:url(/img/sara-saleh-cpisiUDKAqE-unsplash.jpg) ;
+
+.item3 {
+  background-image: url(/img/sara-saleh-cpisiUDKAqE-unsplash.jpg);
 }
-.item4{
+
+.item4 {
   background-image: url(/img/botasrosa.jpg);
 }
-.item5{
-  background-image:url(/img/botas\ blancas\ con\ verde.jpg) ;
+
+.item5 {
+  background-image: url(/img/botas\ blancas\ con\ verde.jpg);
 }
-.item6{
+
+.item6 {
   background-image: url(/img/nike\ rosa-blanco.jpg);
 }
-.item7{
-  background-image:url(/img/taylor-r-wHv3xjHhtUA-unsplash.jpg) ;
+
+.item7 {
+  background-image: url(/img/taylor-r-wHv3xjHhtUA-unsplash.jpg);
 }
-.item8{
+
+.item8 {
   background-image: url(/img/kit2.jpg);
 }
-.item9{
+
+.item9 {
   background-image: url(/img/kit.jpg);
 }
 
-/* nosotros */
-.banner2{
-background-image: url(/img/ks.claro.jpeg);
-color: white;
-background-position: center;
-background-size: cover;
-height: 650px;
-
-}
-h1{
-  text-align: center;
-  color: darkgoldenrod;
-  font-size: 35px;
-  align-items: center;
+.banner2 {
+  background-image: url(/img/ks.claro.jpeg);
+  color: white;
+  background-position: center;
+  background-size: cover;
+  height: 650px;
 }
 
-.nuestraempresa{
-  /* background-color:white; */
+.nuestraempresa {
   color: black;
 }
 
-.mapa{
+.mapa {
   width: auto;
   display: flex;
   flex-basis: auto;
   border: 2px solid black;
 }
 
-.inicio2{
-  background-image:url(/img/maquillajekit.jpg) ;
+.inicio2 {
+  background-image: url(/img/maquillajekit.jpg);
   background-position: center;
   background-size: cover;
   color: darkgoldenrod;
   font-size: 35px;
   height: 650px;
   text-decoration: none;
-  list-style:none;
+  list-style: none;
 }
 
-li{
+li {
   list-style: none;
   line-height: 25px;
 }
-
-ul img {
+li img:hover {
   display: flex;
-  border-radius: 100%;
-  align-items: center;
-  transition: 1.5s;
+  flex-grow: 20px;
+  transition: all 1s;
+  transform: scale(3);
 }
 
-ul a:hover{
-  color: goldenrod;
-  transition: all 1.5s;
-}
-
-li img:hover{
-display: flex;
-flex-grow:20px ;
-transition: all 1s;
-transform: scale(3);
-}
-
-ul a{
-text-decoration: none;
-display: flex;
-justify-content:space-between;
-font-size: 30px;
-color: white;
-line-height: 75px;
-}
-
-/* Formulario contacto */
-
-.banner3{
+.banner3 {
   height: 550px;
   background-image: url(/img/ks.oscuro.jpeg);
   background-size: cover;
-  background-position: center;  
-
+  background-position: center;
 }
 
 form {
   text-align: center;
   justify-content: center;
-  color:white;
+  color: white;
   font-weight: bolder;
   font-style: italic;
 }
 
-.registro{
+.registro {
   text-align: center;
   color: white;
 }
 
-label{
+label {
   font-size: 22px;
 }
-input{
-  background-color: darkgoldenrod
-}
-textarea{
+
+input {
   background-color: darkgoldenrod;
 }
 
-.enviar{
+textarea {
+  background-color: darkgoldenrod;
+}
+
+.enviar {
   color: white;
   background-color: darkgoldenrod;
   height: 40px;
@@ -487,15 +389,14 @@ textarea{
   font-size: 20px;
 }
 
-.inicio3{
+.inicio3 {
   background-image: url(/img/perfume1.jpg);
-  font-size: 60px;    
-  background-position:center;
+  font-size: 60px;
+  background-position: center;
   background-size: cover;
 }
 
-
-ol li{
+ol li {
   font-size: 24px;
   padding: 20px;
   line-height: 1.5em;
@@ -504,38 +405,112 @@ ol li{
   text-shadow: 10px 3px 5px black;
   font-weight: bold;
 }
-span{
-  color:goldenrod;
+
+span {
+  color: goldenrod;
   font-size: 28px;
   font-style: italic;
   font-weight: bold;
 }
 
-.texto{
+.texto {
   padding: 50px;
   font-size: 24px;
   background-image: url(/img/ks.claro.jpeg);
-  background-position:center;
+  background-position: center;
   background-size: cover;
 }
-.emocion{
+
+.emocion {
   text-align: center;
   text-align: justify;
 }
 
-
-@media (min-width: 200px) and (max-width:576px){
-  textarea{
+@media only screen and (min-width: 150px) {
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: auto;
+  }
+}
+@media (min-width: 200px) and (max-width: 576px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .carrusel {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .trabaja {
+    height: 300px;
+  }
+  .item {
+    border: 2px solid darkgoldenrod;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+  }
+  textarea {
     width: 60%;
   }
-
-
-ol li{
-  font-size: 20px;
+  ol li {
+    font-size: 20px;
+  }
+  .emocion {
+    font-size: 20px;
+  }
 }
-.emocion{
-  font-size: 20px;
+@media (min-width: 577px) and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+  }
+  .carrusel {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .trabaja {
+    height: 300px;
+    text-align: center;
+  }
+  .item {
+    border: 2px solid darkgoldenrod;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+  }
+  .item3 {
+    width: 200%;
+  }
+  .item6 {
+    width: 200%;
+  }
+  .item9 {
+    width: 200%;
+  }
 }
+@media (min-width: 769px) {
+  .grid-item {
+    display: block;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.34%;
+    align-items: center;
+    text-align: center;
+  }
+  .item {
+    border: 2px solid darkgoldenrod;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
