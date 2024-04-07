@@ -145,7 +145,7 @@ aside {
 	height: 600px;
 	justify-content: center;
 	align-items: center;
-	background-image: url(/img/ks.oscuro.jpeg);
+	background-image: url(../img/ks.oscuro.jpeg);
 	background-size: cover;
 	background-position: center;
 }
@@ -161,7 +161,7 @@ aside {
 	border-radius: 10%;
 }
 .trabaja {
-	background-image: url(/img/cajamaquillaje.jpg);
+	background-image: url(../img/cajamaquillaje.jpg);
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -210,7 +210,7 @@ footer {
 }
 .galeria {
 	text-align: center;
-	background-image: url(/img/ks.oscuro.jpeg);
+	background-image: url(../img/ks.oscuro.jpeg);
 	background-size: cover;
 	background-position: center;
 }
@@ -262,34 +262,34 @@ h4 {
 	color: $color_2;
 }
 .item1 {
-	background-image: url(/img/colonia.jpg);
+	background-image: url(../img/colonia.jpg);
 }
 .item2 {
-	background-image: url(/img/perfume.jpg);
+	background-image: url(../img/perfume.jpg);
 }
 .item3 {
-	background-image: url(/img/sara-saleh-cpisiUDKAqE-unsplash.jpg);
+	background-image: url(../img/sara-saleh-cpisiUDKAqE-unsplash.jpg);
 }
 .item4 {
-	background-image: url(/img/botasrosa.jpg);
+	background-image: url(../img/botasrosa.jpg);
 }
 .item5 {
-	background-image: url(/img/botas\ blancas\ con\ verde.jpg);
+	background-image: url(../img/botas\ blancas\ con\ verde.jpg);
 }
 .item6 {
-	background-image: url(/img/nike\ rosa-blanco.jpg);
+	background-image: url(../img/nike\ rosa-blanco.jpg);
 }
 .item7 {
-	background-image: url(/img/taylor-r-wHv3xjHhtUA-unsplash.jpg);
+	background-image: url(../img/taylor-r-wHv3xjHhtUA-unsplash.jpg);
 }
 .item8 {
-	background-image: url(/img/kit2.jpg);
+	background-image: url(../img/kit2.jpg);
 }
 .item9 {
-	background-image: url(/img/kit.jpg);
+	background-image: url(../img/kit.jpg);
 }
 .banner2 {
-	background-image: url(/img/ks.claro.jpeg);
+	background-image: url(../img/ks.claro.jpeg);
 	color: $color_6;
 	background-position: center;
 	background-size: cover;
@@ -305,7 +305,7 @@ h4 {
 	border: 2px solid black;
 }
 .inicio2 {
-	background-image: url(/img/maquillajekit.jpg);
+	background-image: url(../img/maquillajekit.jpg);
 	background-position: center;
 	background-size: cover;
 	color: $color_2;
@@ -328,7 +328,7 @@ li {
 }
 .banner3 {
 	height: 550px;
-	background-image: url(/img/ks.oscuro.jpeg);
+	background-image: url(../img/ks.oscuro.jpeg);
 	background-size: cover;
 	background-position: center;
 }
@@ -360,7 +360,7 @@ textarea {
 	font-size: 20px;
 }
 .inicio3 {
-	background-image: url(/img/perfume1.jpg);
+	background-image: url(../img/perfume1.jpg);
 	font-size: 60px;
 	background-position: center;
 	background-size: cover;
@@ -385,9 +385,9 @@ span {
 .texto {
 	padding: 50px;
 	font-size: 24px;
-	background-image: url(/img/ks.claro.jpeg);
-	background-position: center;
-	background-size: cover;
+	background-image: url(../img/ks.claro.jpeg));
+	background-position:center;
+	background-size:cover;
 }
 .emocion {
 	text-align: center;
