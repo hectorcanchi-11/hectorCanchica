@@ -1,17 +1,516 @@
-/* Error: expected ";".
- *     ,
- * 388 |     background-image: url(../img/ks.claro.jpeg));
- *     |                                                ^
- *     '
- *   scss\estilos.scss 388:45  root stylesheet */
+/* productos */
+/* contacto */
+/* carrusel */
+/* Promociones */
+/* nosotros */
+/* Formulario contacto */
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a     \2577 \a 388 \2502      background-image: url(../img/ks.claro.jpeg));\d\a     \2502                                                 ^\a     \2575 \a   scss\\estilos.scss 388:45  root stylesheet';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+header {
+  background-color: black;
+  border: 3px solid goldenrod;
+}
+
+ul li a {
+  font-size: 24px;
+}
+ul img {
+  display: flex;
+  border-radius: 100%;
+  align-items: center;
+  transition: 1.5s;
+}
+ul a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  color: white;
+  line-height: 75px;
+}
+ul a:hover {
+  color: goldenrod;
+  transition: all 1.5s;
+}
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+.banner {
+  height: 450px;
+  background-image: url(../img/perfume-rosa.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  border: 3px solid rgb(104, 97, 97);
+  color: goldenrod;
+  text-transform: capitalize;
+  text-shadow: 10px 5px 5px rgb(151, 132, 26);
+  text-align: center;
+}
+
+.inicio {
+  height: 450px;
+  background-image: url(../img/cosmetics.jpg);
+  background-size: cover;
+  background-position: top;
+  color: goldenrod;
+  font-size: 20px;
+  border: 3px solid black;
+  text-shadow: 1px 0 5px;
+}
+
+div p {
+  font-weight: bolder;
+  font-size: 22px;
+  color: black;
+  padding: 10px;
+  text-shadow: 1px 2px 5px darkgoldenrod;
+}
+div h2 {
+  margin-top: 50px;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: italic;
+}
+
+article {
+  font-size: 18px;
+}
+
+h1 {
+  color: darkgoldenrod;
+  background-color: black;
+  border: 2px solid darkgoldenrod;
+  text-align: center;
+  color: darkgoldenrod;
+  font-size: 35px;
+  align-items: center;
+}
+h1 a {
+  color: darkgoldenrod;
+  list-style: none;
+  text-decoration: none;
+}
+h1 a:hover {
+  color: aliceblue;
+  transition: all 0.9s;
+}
+
+.servicios {
+  border: 2px solid darkgoldenrod;
+}
+
+aside {
+  border: 2px solid black;
+}
+
+.productos {
+  background-image: url(../img/envio\ gratis.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.productos1 {
+  background-image: url(../img/50de\ descuento.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.productos2 {
+  background-image: url(../img/WhatsApp\ Image\ 2024-02-21\ at\ 3.08.52\ PM.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.productos3 {
+  background-image: url(../img/promocionvs2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#carouselExampleFade {
+  display: grid;
+  grid-template-columns: 75%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/ks.oscuro.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.carrusel {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.d-block {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  border: 5px solid darkgoldenrod;
+  border-radius: 10%;
+}
+
+.trabaja {
+  background-image: url(../img/cajamaquillaje.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 30px;
+  margin: 10px;
+}
+footer a:hover {
+  color: antiquewhite;
+}
+footer p {
+  margin: 20px;
+  font-size: 28px;
+  text-transform: capitalize;
+  background-color: rgb(7, 7, 7);
+}
+
+.whatsapp {
+  height: 60px;
+  width: 60px;
+  color: darkgoldenrod;
+  background-color: black;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 0 0 5px 3px darkgoldenrod;
+}
+.whatsapp:hover {
+  color: white;
+  transform: scale(1.3);
+  transition: all 1.5s;
+}
+
+.galeria {
+  text-align: center;
+  background-image: url(../img/ks.oscuro.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-fluid {
+  border: 5px solid darkgoldenrod;
+  height: 300px;
+  width: 250px;
+  transition: all 0.9s;
+}
+
+h3 {
+  margin: 10px;
+  background-color: rgb(0, 0, 0);
+  border: 3px solid goldenrod;
+  padding: 5px;
+  color: goldenrod;
+  font-size: 24px;
+}
+
+h4 {
+  background-color: rgb(0, 0, 0);
+  color: goldenrod;
+  border: 2px SOLID darkgoldenrod;
+  font-size: 20px;
+}
+
+.banner1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../img/kit.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contacto {
+  color: aliceblue;
+  background-color: none;
+  text-decoration: none;
+  padding: 20px;
+  align-items: center;
+}
+
+.container {
+  height: 400px;
+  width: auto;
+}
+
+.promocion {
+  font-size: 24px;
+  text-align: center;
+  background-color: black;
+  height: 50px;
+  padding: 10px;
+  margin: 0;
+  color: darkgoldenrod;
+}
+
+.item1 {
+  background-image: url(../img/colonia.jpg);
+}
+
+.item2 {
+  background-image: url(../img/perfume.jpg);
+}
+
+.item3 {
+  background-image: url(../img/sara-saleh-cpisiUDKAqE-unsplash.jpg);
+}
+
+.item4 {
+  background-image: url(../img/botasrosa.jpg);
+}
+
+.item5 {
+  background-image: url(../img/botas\ blancas\ con\ verde.jpg);
+}
+
+.item6 {
+  background-image: url(../img/nike\ rosa-blanco.jpg);
+}
+
+.item7 {
+  background-image: url(../img/taylor-r-wHv3xjHhtUA-unsplash.jpg);
+}
+
+.item8 {
+  background-image: url(../img/kit2.jpg);
+}
+
+.item9 {
+  background-image: url(../img/kit.jpg);
+}
+
+.banner2 {
+  background-image: url(../img/ks.claro.jpeg);
+  color: white;
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+}
+
+.nuestraempresa {
+  color: black;
+}
+
+.mapa {
+  width: auto;
+  display: flex;
+  flex-basis: auto;
+  border: 2px solid black;
+}
+
+.inicio2 {
+  background-image: url(../img/maquillajekit.jpg);
+  background-position: center;
+  background-size: cover;
+  color: darkgoldenrod;
+  font-size: 35px;
+  height: 650px;
+  text-decoration: none;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  line-height: 25px;
+}
+li img:hover {
+  display: flex;
+  flex-grow: 20px;
+  transition: all 1s;
+  transform: scale(3);
+}
+
+.banner3 {
+  height: 550px;
+  background-image: url(../img/ks.oscuro.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.registro {
+  text-align: center;
+  color: white;
+}
+
+label {
+  font-size: 22px;
+}
+
+input {
+  background-color: darkgoldenrod;
+}
+
+textarea {
+  background-color: darkgoldenrod;
+}
+
+.enviar {
+  color: white;
+  background-color: darkgoldenrod;
+  height: 40px;
+  width: 80px;
+  font-size: 20px;
+}
+
+.inicio3 {
+  background-image: url(../img/perfume1.jpg);
+  font-size: 60px;
+  background-position: center;
+  background-size: cover;
+}
+
+ol li {
+  font-size: 24px;
+  padding: 20px;
+  line-height: 1.5em;
+  text-align: center;
+  color: white;
+  text-shadow: 10px 3px 5px black;
+  font-weight: bold;
+}
+
+span {
+  color: goldenrod;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.texto {
+  padding: 50px;
+  font-size: 24px;
+  background-image: url(../img/ks.claro.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.emocion {
+  text-align: center;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 150px) {
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: auto;
+  }
+}
+@media (min-width: 200px) and (max-width: 576px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .carrusel {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .trabaja {
+    height: 300px;
+  }
+  .item {
+    border: 2px solid darkgoldenrod;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+  }
+  textarea {
+    width: 60%;
+  }
+  ol li {
+    font-size: 20px;
+  }
+  .emocion {
+    font-size: 20px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+  }
+  .carrusel {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .trabaja {
+    height: 300px;
+    text-align: center;
+  }
+  .item {
+    border: 2px solid darkgoldenrod;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+  }
+  .item3 {
+    width: 200%;
+  }
+  .item6 {
+    width: 200%;
+  }
+  .item9 {
+    width: 200%;
+  }
+}
+@media (min-width: 769px) {
+  .grid-item {
+    display: block;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.34%;
+    align-items: center;
+    text-align: center;
+  }
+  .item {
+    border: 2px solid darkgoldenrod;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
